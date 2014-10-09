@@ -1,0 +1,67 @@
+/*** global ***/
+h2 {
+	font-size: 24px;
+	margin-top: 10px;
+}
+
+p {
+	margin: 10px 0;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+/*** navbar ***/
+/*.navbar-default {
+	background-color: #f7f7f7;
+}*/
+
+.navbar-nav > li > a {
+	padding: 0 5px;
+}
+
+.navbar-btn {
+	margin-top: 14px;
+	margin-bottom: 14px;
+}
+
+/*** container ***/
+.container {
+	max-width: 1300px;
+}
+
+.page-header {
+	margin-top: 0;
+}
+
+.jumbotron {
+	font-size: 14px;
+}
+
+/*** icons ***/
+.glyphicon {
+	margin-right: 5px;
+	margin-bottom: 0.2em;
+	font-size: 0.8em;
+}
+
+/*** modal ***/
+.modal-content .modal-body img {
+	max-width: 100%;
+}
+
+/*** form ***/
+input[type="radio"], input[type="checkbox"] {
+	margin: 7px 0 0;
+}
+
+.form-horizontal .control-label, .form-horizontal .radio, .form-horizontal .checkbox, .form-horizontal .radio-inline, .form-horizontal .checkbox-inline {
+	padding-top: 1px;
+}
+
+/*** list ***/
+.list-group-item-text {
+	font-size: 14px;
+}

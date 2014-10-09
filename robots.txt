@@ -1,0 +1,9 @@
+# CML
+
+User-agent: *
+Disallow: /admin/
+Disallow: /data/
+Disallow: /source/
+Disallow: /theme/
+Disallow: /upload/
+

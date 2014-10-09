@@ -1,0 +1,56 @@
+body {
+	color: #ddd;
+	background-color: #000;
+	font-family: Helvetica, Tahoma, Verdana, Arial, Georgia, serif;
+	font-size: 14px;
+	margin: 0px 0;
+}
+
+a {
+	color: #EF0000;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: #EF0000;
+	text-decoration: none;
+}
+
+.clear {
+	clear: both;
+}
+
+.wrapper {
+	width: 1000px;
+	margin: 0 auto;
+	padding: 0 0.5em;
+}
+
+#header h1 {
+	margin: 1.5em 0.4em 1em;
+	padding: 0;
+	color: #EF0000;
+	font-size: 28px;
+	font-weight: 600;
+}
+
+#head-banner {
+	background: #1d1d1d;
+}
+
+#head-banner #banner-inner {
+	padding: 1em 0;
+	line-height: 1.5em;
+	color: #ccc;
+	text-align: justify;
+}
+
+#content {
+	padding: 1em 0;
+}
+
+#footer {
+	color: #555;
+	font-size: 12px;
+	border-top: 1px solid #333;
+}

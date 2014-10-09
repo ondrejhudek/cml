@@ -1,0 +1,263 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #362217 url(../img/bg.jpg) 50% 0 repeat-y;
+	font-family: Arial, Tahoma, Verdana;
+	color: #000;
+	font-size: 13px;
+}
+
+@font-face { font-family: osifont; src: url('osifont.ttf'), url('osifont.eot'); }
+
+a {
+	color: #94733B;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+h2 {
+	font-size: 20px;
+	margin: 0;
+	padding: 15px 0 10px;
+	font-family: osifont, Arial;
+	color: #94733B;
+}
+
+.container {
+	width: 1000px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.sitename {
+	float: left;
+	margin-top: 20px;
+	margin-left: 0px;
+}
+
+	.sitename h1 {
+		width: 271px;
+		height: 139px;
+		background-image: url('../img/logo.png');
+		margin: 0;
+		padding: 0;
+		margin-bottom: 15px;
+		margin-left: 10px;
+	}
+
+	.sitename h1 span { visibility:hidden; }
+
+.title {
+	position: absolute;
+	top: 186px;
+	left: -26px;
+}
+
+/*** slider ***/
+#slide-top {
+	float: left;
+	width: 1000px;
+	height: 2px;
+	background: url(../img/slidetop.png) 0 0 repeat-x;
+	margin-top: 5px;
+}
+
+#slide {
+	float: left;
+	width: 1000px;
+	height: 370px;
+	background: #000;
+}
+
+/* The Nivo Slider styles */
+.nivoSlider {
+	float:left;
+	position:relative;
+	width: 686px;
+	height: 323px;
+	margin-left: 20px;
+	margin-top: 20px;
+	background: url(../img/loading.gif) no-repeat 50% 50%;
+}
+
+.nivoSlider img {
+	position:absolute;
+	top:0px;
+	left:0px;
+	display:none;
+    width:606px; /* Make sure your images are the same size */
+    height:323px; /* Make sure your images are the same size */
+}
+.nivoSlider a {
+    border:0;
+    display:block;
+	color: #fff;
+}
+
+/* If an image is wrapped in a link */
+.nivoSlider a.nivo-imageLink {
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	border:0;
+	padding:0;
+	margin:0;
+	z-index:6;
+	display:none;
+}
+/* The slices and boxes in the Slider */
+.nivo-slice {
+	display:block;
+	position:absolute;
+	z-index:5;
+	height:100%;
+}
+.nivo-box {
+	display:block;
+	position:absolute;
+	z-index:5;
+}
+
+/* Caption styles */
+.nivo-caption {
+	position:absolute;
+	left: 10px;
+	/* right:0px; */
+	bottom:10px;
+	background:#886732;
+	color:#fff;
+	text-shadow: 0 1px #000;
+	opacity:0.8; /* Overridden by captionOpacity setting */
+	z-index:8;
+	width: 180px;
+	padding: 20px;
+	overflow: hidden;
+}
+.nivo-caption p {
+	padding:0 !important;
+	margin:0 !important;
+	font-size:15px;
+	font-family: Tahoma;
+	font-weight: lighter;
+}
+.nivo-caption a {
+	display:inline !important;
+	border-bottom: 1px dotted #fff;
+}
+.nivo-caption a:hover {
+	border-bottom-style: solid;
+	text-decoration: none;
+}
+.nivo-html-caption {
+    display:none;
+}
+
+/* Direction nav styles (e.g. Next & Prev) */
+.nivo-directionNav a {
+	position:absolute;
+	top:45%;
+	z-index:9;
+	cursor:pointer;
+	text-indent: -10000px;
+	width: 30px;
+	height: 30px;
+	background-image: url(../img/arrows.png);
+	background-repeat: no-repeat;
+}
+.nivo-prevNav {
+	left:15px;
+	background-position: left top;
+}
+.nivo-nextNav {
+	right:35px;
+	background-position: -31px top;
+}
+
+/* Control nav styles (e.g. 1,2,3...) */
+.nivo-controlNav {
+    display:none;
+}
+.nivo-controlNav a {
+   display:none;
+}
+
+/* Newsflash */
+#newsflash {
+	float:left;
+	width:270px;
+	height:330px;
+	background:transparent;
+	margin-top:18px;
+}
+
+#newsflash p {
+	color:#ccc;
+	font-size:16px;
+	font-weight: lighter;
+	line-height: 1.4em;
+	word-spacing: 0.2em;
+	margin:0;
+	padding:0;
+	padding-top: 8px;
+	text-align: center;
+}
+
+/*** header ***/
+.header {
+	float: left;
+	width: 1000px;
+	height: 230px;
+	margin: 7px auto 0;
+	background: #000;
+}
+
+	.header p { 
+		font-family: Tahoma; 
+		color: #eee; 
+		font-size: 16px; 
+		margin: 20px;
+		font-weight: lighter;
+		line-height: 1.4em;
+		word-spacing: 0.2em;
+		overflow: hidden;
+	}
+
+/*** wrapper ***/
+.wrapper {
+	float:left;
+	width:1000px;
+	background: #efefef;
+}
+	
+.wrapper .main {
+	margin: 20px;
+	padding: 20px;
+	background: #fff;
+}
+ /*** footer ***/
+.footer { 
+	float: left;
+	width: 1000px;
+	height: 50px;
+	margin-top: 10px;
+}
+	.footer .ft_inner {
+		float: left;
+		width: 900px;
+	}
+		
+		.footer .ft_inner p {
+			color: #fff;
+			margin-left: 20px;
+			font-size: 13px;
+		}
+		
+	.footer .top_button {
+		float: left;
+		margin-top: 5px;
+	}
